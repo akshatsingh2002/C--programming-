@@ -9,5 +9,7 @@ int main(){
     cin>>age;
     cout<<characterName<<"is a very good person"<<endl;
     cout<<"And he is "<<age<<"Years old"<<endl;
+    printf(" i didnt knew printf still works in c++");
+    
     return 0;
 }

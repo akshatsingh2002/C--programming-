@@ -32,9 +32,11 @@ which is idiotic so we will use contructors*/
 constructor that is called a default constructor it is a method but it 
 still does not have any return type*/
 
-Employee employee3=Employee("shiv","amazon",35);
+Employee employee3=Employee("shiv","amazon",35);  
 //using constructor to enter the data//
 employee3.Introduction();
+Employee employee1=Employee("Akshat","Microsoft",18);
+employee1.Introduction();
 
     return 0;
 }

@@ -7,15 +7,18 @@ class add{
         num1=a;
         num2=b;
     }
-        void multiplying(){
-            cout<<num1*num2;;
-        }
-        void adding(){
-            cout<<(int)(num1+num2);
-            }
+        void multiplying()
+        {}
+        void adding(){}
 
     
 };
+void add::multiplying(){
+    cout<<num1*num2;
+}
+void add::adding(){
+    cout<<(int)(num1+num2);
+}
 int main(){
     add a1;
     float x,y;

@@ -1,10 +1,11 @@
 //write a program to implemet array of objectwith rollno,age,brach//
 #include<iostream>
+#include<string>
 using namespace std;
 class student{
     public:
     int rollno,age,i;
-    char branch;
+    string branch;
     void setdata(){
         cout<<"Enter roll number of the student"<<endl;
         cin>>rollno;

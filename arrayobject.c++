@@ -3,7 +3,7 @@
 using namespace std;
 class student{
     public:
-    int rollno,age;
+    int rollno,age,i;
     char branch;
     void setdata(){
         cout<<"Enter roll number of the student"<<endl;

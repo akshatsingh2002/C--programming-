@@ -16,7 +16,7 @@ class Bank{
     void transaction(Bank acc1,Bank acc2){
         float transaction_money;
         cout<<"Enter money amount to be transfered"<<endl;
-        cin>>transaction;
+        cin>>transaction_money;
         cout<<endl;  
         acc1.balance=acc1.balance-transaction_money;
         acc2.balance=acc2.balance+transaction_money;

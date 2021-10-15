@@ -4,6 +4,7 @@ class Bank{
     public:
     int accnumber;
     float balance;
+    float transaction_money;
     void setdata(){
         cout<<"Enter account number"<<endl;
         cin>>accnumber;
@@ -14,7 +15,7 @@ class Bank{
         cout<<"Account number is :"<<accnumber<<" and balcnce is :"<<balance;
     }
     void transaction(Bank acc1,Bank acc2){
-        float transaction_money;
+        
         cout<<"Enter money amount to be transfered"<<endl;
         cin>>transaction_money;
         cout<<endl;  

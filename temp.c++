@@ -1,6 +1,6 @@
 #include<iostream>
-#include<math>
-using namespaces std;
+#include<math.h>
+using namespace std;
 class complex{
     public:
     int real,img;
@@ -16,7 +16,7 @@ void complex::read(){
     cout<<endl;
 }
 void complex::show(){
-    cou<<real;
+    cout<<real;
     if(img<0)
     cout<<"-i;";
     else
@@ -24,16 +24,16 @@ void complex::show(){
     cout<<abs(img);
 }
 void complex::add(complex num1,complex num2){
-    num1.real=num1.read+num2.read;
+    num1.real=num1.real+num2.real;
     num1.img=num1.img+num2.img;
 }
 void main(){
     complex c1,c2,c3;
-    c1.read;
-    c2.read;
-    c1.show;
-    c2.show;
+    c1.read();
+    c2.read();
+    c1.show();
+    c2.show();
     c3.add(c1,c2);
 
-    return  0;
+    return 0;
 }

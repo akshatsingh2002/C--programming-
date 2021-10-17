@@ -27,7 +27,7 @@ void complex::add(complex num1,complex num2){
     num1.real=num1.real+num2.real;
     num1.img=num1.img+num2.img;
 }
-void main(){
+int Smain(){
     complex c1,c2,c3;
     c1.read();
     c2.read();

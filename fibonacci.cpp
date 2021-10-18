@@ -10,8 +10,15 @@ class fibo{
 void fibo::start(){
     cout<<"Enter the number till you want fibonacci series: ";
     cin>>n;
+    if(n==1){
     cout<<a;
-    cout<<b;
+    }
+    else if(n==2){
+        cout<<a;
+        cout<<b;
+    }
+    else{
+        cout<<a<<b;
     for(i=0;i<n-2;i++){
         c=a+b;
         a=b;
@@ -19,6 +26,7 @@ void fibo::start(){
         cout<<b;
 
         
+    }
     }
 
 }

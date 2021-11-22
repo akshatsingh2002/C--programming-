@@ -17,6 +17,9 @@ class distance1{
     void show(){
         cout<<"Feet:"<<feet<<endl<<"Inch:"<<inch;
     }
+    ~distance1(){
+        cout<<endl<<"I am a destructor";
+    }
 };
 int main(){//use clrscr and getch for turbo c++//
     distance1 obj1;

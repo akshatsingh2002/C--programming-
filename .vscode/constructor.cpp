@@ -1,5 +1,5 @@
 #include<iostream>
-using namsespace std;
+using namsespace std;//use iostream.h and conio.h for turbo c++//
 class distance{
     int feet,inch;
     public:
@@ -17,7 +17,7 @@ class distance{
         cout<<"Feet:"<<feet<<enld<<"Inch:"<<inch;
     }
 };
-void main(){
+void main(){//use clrscr and getch for turbo c++//
     distance obj1;
     obj1.show();
     obj1.read();

@@ -1,5 +1,5 @@
 #include<iostream>
-using namsespace std;//use iostream.h and conio.h for turbo c++//
+using namespace std;//use iostream.h and conio.h for turbo c++//
 class distance{
     int feet,inch;
     public:

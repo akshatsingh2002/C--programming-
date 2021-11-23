@@ -19,15 +19,15 @@ class second{
         cin>>b;
     }
     friend void max(first, second);
-}
+};
 void max(first f,second s){
    
-    if(f>s){
-        cout<<f<<" is bigger";
+    if(f.a>s.b){
+        cout<<f.a<<" is bigger";
     }
     else 
-    cout<<s<<" is bigger";
-};
+    cout<<s.b<<" is bigger";
+}
 int main(){
     first obj1;
     second obj2;

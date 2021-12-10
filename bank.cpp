@@ -75,7 +75,7 @@ void account::draw(int x)
 	
 void account::report() const
 {
-	cout<<"ACCOUNT NUMBER : "<<acno<<"\t NAMW :"<<name<<"\t ACCOUNT TYPE : "<<type<<"\tBALANCE : "<<deposit<<endl;
+	cout<<"ACCOUNT NUMBER : "<<acno<<"\t NAME :"<<name<<"\t ACCOUNT TYPE : "<<type<<"\tBALANCE : "<<deposit<<endl;
 }
 
 	
@@ -124,11 +124,11 @@ int main()
 			 obj1.create_account();
 			break;
 		case '2':
-			cout<<"\n\n\tEnter The account No. : "; cin>>num;
+			cout<<"\n\n\tEnter The amount. : "; cin>>num;
 			 obj1.dep(num);
 			break;
 		case '3':
-			cout<<"\n\n\tEnter The account No. : "; cin>>num;
+			cout<<"\n\n\tEnter The amount : "; cin>>num;
 			 obj1.draw(num);
 			break;
 		case '4': 

@@ -1,6 +1,7 @@
 /*write a program to implement virtual base calss in which there are four class named as student , exam, sprots and result. we need to print the details
 rollno, name,department,sports marks,exam marksand resultant marks from respective classes*/
 #include<iostream>
+#include<string.h>
 using namespace std;
 class student{
     public:

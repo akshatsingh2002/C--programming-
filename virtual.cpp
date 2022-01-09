@@ -21,7 +21,7 @@ class student{
     
 };
 class exam:virtual student{
-    public:
+public:
     int marks1;
     void read(){
         cout<<"\nEnter exam markrs:";

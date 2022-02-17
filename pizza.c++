@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<string.h>
 using namespace std;
 long int number_of_clients,ingredients,tot=0;
